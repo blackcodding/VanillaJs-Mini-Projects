@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(#000000, #21094e);
+}
+.selections {
+    display: flex;
+    justify-content: center;
+    margin-left: 31%;
+    margin-right: 31%;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px #1a4d5f;
+    outline: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 6rem;
+    transition: 100ms;
+    margin-right: 30px;
+}
+.both-side {
+    margin-bottom: 110px;
+}
+.middle {
+    margin-top: 90px;
+}
+/* FOR GIVING MARGING ON LEFT SIDE OF ROCK EMOJI................*/
+.rocks {
+    margin-left: 30px;
+}
+.selection:hover {
+    transform: scale(1.1);
+}
+.results {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    grid-column-gap: 13px;
+}
+.result-score {
+    margin-left: .5rem;
+    font-size: 2rem;
+    color: rgb(231, 2, 2);
+    align-self: center;
+    font-weight: bold;
+}
+.result-selection {
+    opacity: .5;
+}
+.result-selection.winner {
+    opacity: 1;
+    font-size: 3.9rem
+}
+
+.heading {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    word-spacing: 9px;
+    margin-top: 20px;
+    font-family: 'KoHo', sans-serif;
+    letter-spacing: 13px;
+}
+
+
+
+/* MODIFY MADE FROM HERE ...................................... */
+.you-div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 4px 4px 11px #25505f;
+	text-transform: uppercase;
+	font-family: 'KoHo', sans-serif;
+	font-weight: 900;
+	padding: 10px;
+}
+.computer-div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 4px 4px 11px #25505f;
+	font-family: 'KoHo', sans-serif;
+	font-weight: 900;
+	padding: 10px;
+}
+ 
+
+/* MEDIA QUERY ............................................................... */
+
+@media (max-width: 900px) {
+    body {
+        background-image: linear-gradient(to bottom right, #07182c, #258d99);
+    }
+    .selections {
+        margin-left: 13%;
+        margin-right: 13%;
+        box-shadow: 4px 4px 11px #1b1b1b;
+    }
+    .selection {
+        font-size: 4rem;
+        margin-right: 10px;
+    }
+    .heading {
+        font-size: 2rem;
+        letter-spacing: 5px;
+        word-spacing: 7px;
+    }
+    .result-score {
+        font-size: 1.5rem;
+    }
+    .you-div {
+        font-size: 1.7rem;
+        padding-top: .2rem;
+        padding-bottom: .2rem;
+        box-shadow: 4px 4px 11px #242424;
+    }
+    .computer-div {
+        font-size: 1.7rem;
+        padding-top: .2rem;
+        padding-bottom: .2rem;
+        box-shadow: 4px 4px 11px #242424;
+    }
+  }
+
+
+
+
+
+
+
+/*BEAUTIFYSCROLLBAR ...................................................... */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(82, 81, 81); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
