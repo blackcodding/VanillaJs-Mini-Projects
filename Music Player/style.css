@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+root {
+    font-size: 62%;
+}
+.main-div {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#fdc9e9, #6d7ec9);
+    display: grid;
+    place-items: center;
+}
+.music-container {
+    width: 23rem;
+    height: 35rem;
+    background-color: rgb(236, 233, 233);
+    border-radius: 1rem;
+    box-shadow: 0 7px 30px rgba(16, 12, 26, 0.6);
+    padding: 3rem 2.5rem;
+    text-align: center;
+}
+.music-container #title {
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    color: #000000;
+    margin: .05rem 0 0.5rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.music-container #artist {
+    color: #686868;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-family: 'Lobster', cursive;
+}
+.img-container {
+    width: 16rem;
+    height: 16rem;
+    margin: auto;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+   box-shadow: 0 7px 30px rgba(0, 0, 0, 0.7);
+}
+.music-controls {
+    width: 14rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 3rem;
+}
+.music-controls .fas {
+    color: #111111;
+    font-size: 1.2rem;
+    cursor: pointer;
+    filter: drop-shadow(0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.4));
+}
+.music-controls .main_button {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    background-color: #111;
+    color: #f6f6f6;
+    font-size: .9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music-controls .fas:hover {
+    color: rgb(133, 132, 132);
+}
+.music-controls .fa-play:hover {
+    background-color: #f6f6f6;
+    color: #111;
+   box-shadow: 0 7px 30px rgba(0, 0, 0, 0.6);
+}
+.anime {
+    animation: roatePlayer 3s linear infinite;
+}
+@keyframes roatePlayer {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

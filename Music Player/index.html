@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="main-div">
+        <div class="music-container">
+            <h2 id="title">Heaven</h2>
+            <h3 id="artist">Julia Michaels</h3>
+            <div class="img-container">
+               <img src="images/msc-1.jpg" alt=""> 
+            </div>
+            <audio src="musics/msc-1.mpeg"></audio>
+
+            <div class="music-controls">
+                <i class="fas fa-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play main_button" id="play" title="Play"></i>
+                <i class="fas fa-forward" id="next" title="Next"></i>
+            </div>
+        </div>
+    </div>
+    <script src="myscripts.js"></script>
+</body>
+</html>
