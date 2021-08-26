@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Responsive Video</title>
+</head>
+
+<body>
+    <div class="video-container">
+        <video class="video" autoplay muted loop>
+        <source src="./video.mp4" type="video/mp4" />
+      </video>
+        <div class="form-container">
+            <form id="form" class="form">
+                <h2>Register Here :)</h2>
+                <div class="formlabel">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter username" />
+                    <span>Error message</span>
+                </div>
+                <div class="formlabel">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter email" />
+                    <span>Error message</span>
+                </div>
+                <div class="formlabel">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter password" />
+                    <span>Error message</span>
+                </div>
+                <div class="formlabel">
+                    <label for="password2">Confirm Password</label>
+                    <input type="password" id="password2" placeholder="Enter password again" />
+                    <span>Error message</span>
+                </div>
+                <button type="submit">Sign up</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
