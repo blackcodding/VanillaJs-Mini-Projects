@@ -6,7 +6,7 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(#000000, #21094e);
+    background-color: hsl(0, 0%, 30%);
 }
 .selections {
     display: flex;
@@ -15,7 +15,6 @@ body {
     margin-right: 31%;
     margin-top: 15px;
     border-radius: 10px;
-    box-shadow: 2px 4px 5px #1a4d5f;
     outline: black;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -25,7 +24,7 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    font-size: 6rem;
+    font-size: 5rem;
     transition: 100ms;
     margin-right: 30px;
 }
@@ -50,8 +49,8 @@ body {
     justify-items: center;
     align-items: center;
     margin-top: 2rem;
-    font-size: 2.5rem;
-    grid-column-gap: 13px;
+    font-size: 2rem;
+    grid-column-gap: 17px;
 }
 .result-score {
     margin-left: .5rem;
@@ -65,86 +64,73 @@ body {
 }
 .result-selection.winner {
     opacity: 1;
-    font-size: 3.9rem
+    font-size: 3rem
 }
 
-.heading {
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
-    word-spacing: 9px;
-    margin-top: 20px;
-    font-family: 'KoHo', sans-serif;
-    letter-spacing: 13px;
-}
 
 
 
 /* MODIFY MADE FROM HERE ...................................... */
 .you-div {
-    width: 80%;
+    width: 65%;
     display: flex;
     justify-content: center;
     background-color: white;
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
-    box-shadow: 4px 4px 11px #25505f;
-	text-transform: uppercase;
+    box-shadow: 4px 4px 11px #0a0a0a;
 	font-family: 'KoHo', sans-serif;
 	font-weight: 900;
-	padding: 10px;
+	padding: 5px;
 }
 .computer-div {
-    width: 80%;
+    width: 65%;
     display: flex;
     justify-content: center;
     background-color: white;
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
-    box-shadow: 4px 4px 11px #25505f;
+    box-shadow: 4px 4px 11px #0a0a0a;
 	font-family: 'KoHo', sans-serif;
 	font-weight: 900;
-	padding: 10px;
+	padding: 5px;
 }
  
 
 /* MEDIA QUERY ............................................................... */
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
     body {
         background-image: linear-gradient(to bottom right, #07182c, #258d99);
     }
     .selections {
         margin-left: 13%;
         margin-right: 13%;
-        box-shadow: 4px 4px 11px #1b1b1b;
     }
     .selection {
         font-size: 4rem;
         margin-right: 10px;
     }
-    .heading {
-        font-size: 2rem;
-        letter-spacing: 5px;
-        word-spacing: 7px;
-    }
     .result-score {
         font-size: 1.5rem;
     }
     .you-div {
+        width: 70%;
         font-size: 1.7rem;
         padding-top: .2rem;
         padding-bottom: .2rem;
         box-shadow: 4px 4px 11px #242424;
     }
     .computer-div {
+        width: 70%;
         font-size: 1.7rem;
         padding-top: .2rem;
         padding-bottom: .2rem;
         box-shadow: 4px 4px 11px #242424;
     }
   }
+
+
 
 
 
