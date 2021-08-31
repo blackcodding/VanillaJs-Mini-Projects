@@ -27,7 +27,7 @@
 
 ### Screenshot Bellow 👇
 
-![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Stone%20Paper%20Scissors%20Game/Rock%20Paper%20Scissors.png)
+![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Stone%20Paper%20Scissors%20Game/Screenshot.PNG)
 
 ## 4. Music Player
 - Music player - Made with HTML, CSS and Vanila Js.
