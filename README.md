@@ -7,7 +7,7 @@
 - Without using CSS Canvas.
 - WEBSITE LINK: https://blackcodding.github.io/Snake-Game/
 
-### Screenshot bellow 👇
+### Screenshot Bellow 👇
 
 ![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Snake%20Game/Snake-game-Gif.gif)
 
