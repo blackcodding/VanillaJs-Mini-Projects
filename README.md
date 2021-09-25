@@ -16,6 +16,7 @@
 - A simple, light and responsive UI
 - See the rules and try your luck!
 
+
 ### Screenshot Bellow 👇
 ![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Play%20and%20Win/images/Player1%20win.png)
 ![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Play%20and%20Win/images/Player2%20win.png)
