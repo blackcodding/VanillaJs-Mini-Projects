@@ -11,7 +11,14 @@
 
 ![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Snake%20Game/Snake-game-Gif.gif)
 
-## 2. Simple Dice Game
+
+## 2. Calculator
+- Build a simple Calculator with attractive UI.
+- Implemented dark and light mood.
+- WEBSITE LINK: https://blackcodding.github.io/Calculator/
+
+
+## 3. Simple Dice Game
 - A 2 player Dice game.
 - A simple, light and responsive UI
 - See the rules and try your luck!
@@ -21,7 +28,7 @@
 ![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Play%20and%20Win/images/Player1%20win.png)
 ![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Play%20and%20Win/images/Player2%20win.png)
 
-## 3. Stone Paper Scissor Game
+## 4. Stone Paper Scissor Game
 - A 2 player classis Stone Paper Scissor game.
 - A simple, light and responsive UI
 - Play against CPU :)
@@ -30,7 +37,7 @@
 
 ![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Stone%20Paper%20Scissors%20Game/Screenshot.PNG)
 
-## 4. Music Player
+## 5. Music Player
 - Music player - Made with HTML, CSS and Vanila Js.
 - A simple, light and responsive UI
 - Attractive animations on response.
@@ -41,7 +48,7 @@
 ![Screenshot-1](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Music%20Player/images/screenshot-1.PNG)
 ![Screenshot-3](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Music%20Player/images/screenshot-3.PNG)
 
-## 5. Form Validator
+## 6. Form Validator
 - A simple form validator with simple, attractive and responsive UI
 - Responsive video background
 - WEBSITE LINK: https://blackcodding.github.io/Responsive-form-validator/
@@ -51,7 +58,7 @@
 ![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Form%20Validator/Form.JPG)
 ![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Form%20Validator/Form%20Responsive.JPG)
 
-## 6. Text-Convertor
+## 7. Text-Convertor
 - Fast Text to Speech converter.
 - Easy to use and fun to have :)
 - Simple, Responsive and Attractive UI.
@@ -60,7 +67,7 @@
 ### Screenshot Bellow 👇
 ![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Text%20Convertor/text-converter-screenshot.PNG)
 
-## 7. Analog-Clock
+## 8. Analog-Clock
 - Analog clock with accurate time ratio.
 - Build a Responsive Analog Clock with attractive UI.
 - Accurate hour, minute and seconds ratio.
@@ -70,7 +77,7 @@
 ### Screenshot bellow 👇
 ![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Analog%20Clock/clock-screenshot-1.PNG)
 
-## 8. Googl Maps Clone
+## 9. Googl Maps Clone
 - Build Google Map's clone by using Mapbox, Geoloction API, Mapbox plugins.
 - Searching the distance between two place and their route.
 - Proper route guidence for each trafic, driving, walking route.
