@@ -19,6 +19,7 @@
 
 ### Screenshot Bellow 👇
 ![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Calculator/Calculator.gif)
+![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Calculator/calculator-screenshoot.png)
 
 
 ## 3. Simple Dice Game
