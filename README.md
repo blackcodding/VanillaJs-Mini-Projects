@@ -17,6 +17,9 @@
 - Implemented dark and light mood.
 - WEBSITE LINK: https://blackcodding.github.io/Calculator/
 
+### Screenshot Bellow 👇
+![screenshot](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Calculator/Calculator.gif)
+
 
 ## 3. Simple Dice Game
 - A 2 player Dice game.
