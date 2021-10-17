@@ -1,3 +1,9 @@
+document.querySelector('.theme-toggle-button').addEventListener('click', () => {
+    document.body.classList.toggle('light')
+})
+
+
+
 class Calculator {
     constructor(previousOperandTextElement, currentOperandTextElement){
         this.previousOperandTextElement = previousOperandTextElement
