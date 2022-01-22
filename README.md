@@ -24,7 +24,7 @@
 
 ## 3. Simple Dice Game
 - A 2 player Dice game.
-- A simple, light and responsive UI
+- A simple, light and responsive UI.
 - See the rules and try your luck!
 
 
@@ -53,8 +53,8 @@
 ![Screenshot-3](https://github.com/blackcodding/VanillaJs-Mini-Projects/blob/main/Music%20Player/images/screenshot-3.PNG)
 
 ## 6. Form Validator
-- A simple form validator with simple, attractive and responsive UI
-- Responsive video background
+- A simple form validator with simple, attractive and responsive UI.
+- Responsive video background.
 - WEBSITE LINK: https://blackcodding.github.io/Responsive-form-validator/
 
 ### Screenshot bellow 👇
